@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background-size</title>
+</head>
+<body style="background: #222222;">
+<div style="width: 70%;margin: 100px auto auto; background-color: #cccccc;padding: 30px;">
+
+    <h1 style="color: #c38484;">Свойство background-size </h1>
+
+
+    <p style="text-indent: 25px;">Разрешение мониторов постоянно растёт и при вёрстке веб-страниц приходится учитывать самый широкий диапазон разрешений.
+    За управление размером отвечает свойство <span style="font-weight: bold;"> background-size</span>, в качестве значения можно указывать ключевое слово <span style="font-weight: bold;">cover,</span>
+    тогда размер изображения будет такой, чтобы его ширина и высота поместились в заданную область (например, окно веб-страницы); ключевое слово <span style="font-weight: bold;"> contain</span>
+    масштабирует картинку так, чтобы хотя бы одна сторона картинки целиком поместилась в заданную область. </p>
+
+</div>
+<div style="width: 1790px;margin: auto;">
+    <div style="width:400px;height:500px;display: inline-block;background:url('http://fe.it-academy.by/Sites/0025422/pictures/G163365_b.jpg')no-repeat #cccccc;padding: 0;border: solid 1px #cccccc;margin:20px; "> <p style="color: white;text-indent: 25px;">Исходнoе изображениe</p></div>
+    <div style="width:400px;height:500px;display: inline-block;background:url('http://fe.it-academy.by/Sites/0025422/pictures/G163365_b.jpg')no-repeat #cccccc;background-size:cover;padding: 0;border: solid 1px #cccccc; margin:20px;"><p style="color: white;text-indent: 25px;">Значение cover</p></div>
+    <div style="width:400px;height:500px;display: inline-block;background:url('http://fe.it-academy.by/Sites/0025422/pictures/G163365_b.jpg') no-repeat #cccccc;background-size:contain;padding: 0;border: solid 1px #cccccc;margin:20px; "><p style="color: white;text-indent: 25px;">Значение contain</p></div>
+    <div style="width:400px;height:500px;display: inline-block;background:url('http://fe.it-academy.by/Sites/0025422/pictures/G163365_b.jpg')no-repeat #cccccc;background-size:100% 100%;padding: 0;border: solid 1px #cccccc;margin:20px; "><p style="color: white;text-indent: 25px;">Значение 100% 100%</p></div>
+</div>
+
+
+
+</body>
+</html>

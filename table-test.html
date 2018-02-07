@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Таблица</title>
+    <style>
+        table, td { border: 2px solid blue }
+        table{border-collapse: collapse;}
+        th{
+            background-color: #888888;color: #ffffff ;
+            border-left:#888888 ;
+            padding: 5px;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>Пример сложной таблицы</h1>
+<table style="width:100% ;">
+ <tr >
+     <th >Название 1</th>
+     <th>Название 2</th>
+     <th>Еще название</th>
+     <th>Куча элементов</th>
+     <th>Список 1</th>
+     <th>Список 2</th>
+ </tr>
+<tr>
+    <td rowspan="11" style="vertical-align: middle;text-align: center;">JPMC</td>
+    <td rowspan="5" style="vertical-align: middle;">CST</td>
+    <td rowspan="3" style="vertical-align: middle;">CT</td>
+    <td>ADS</td>
+    <td style="text-align: center;">1</td>
+    <td style="text-align: center;">10</td>
+</tr>
+    <tr>
+        <td>BTO</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">15</td>
+    </tr>
+    <tr>
+        <td style="padding: 5px;">SCI</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">16</td>
+    </tr>
+    <tr>
+        <td rowspan="2" style="vertical-align: middle;text-align: center;">VCT</td>
+        <td>ADS</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">10</td>
+    </tr>
+    <tr>
+        <td style="padding: 5px;">BTO</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">15</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align: right;">SUB TOTAL</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">15</td>
+    </tr>
+    <tr>
+        <td rowspan="4" style="vertical-align: middle;">CST</td>
+        <td rowspan="3" style="vertical-align: middle;">CT</td>
+        <td>ADS</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">10</td>
+    </tr>
+    <tr>
+        <td>BTO</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">15</td>
+    </tr>
+    <tr>
+        <td >CSI</td>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">6</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">VCT</td>
+        <td>ADS</td>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">10</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align: right;">SUB TOTAL</td>
+        <td style="text-align: center;">11</td>
+        <td style="text-align: center;">15</td>
+    </tr>
+
+</table>
+</body>
+</html>
